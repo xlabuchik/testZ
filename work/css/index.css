@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	height: 100%;
+}
+body {
+	background:#2B2B44;
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+}
+#input {
+  padding-top:1%;
+	font-size: 30px;
+	color: #FFEFD0;
+	width: 89%;
+	height: 60px;
+	margin-top: 2%;
+	text-align: center;
+	margin-rigth: 5%;
+	margin-left: 5%;
+	box-shadow: 0 0 25px silver;
+	border-radius: 25px;
+	border: none!important;
+	border-radius: 10px;
+}
+#output {
+  padding-top:1%;
+	font-size: 40px;
+	color: #BEACAC;
+	width: 69%;
+	height: 60px;
+	margin-top: 2%;
+	text-align: center;
+	margin-rigth: 15%;
+	margin-left: 15%;
+	box-shadow: 0 0 25px silver;
+	border-radius: 25px;
+	border: none!important;
+	border-radius: 10px;
+}
+#calk {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 5%;
+	background-color: rgb(28, 28, 44);
+	border-radius: 10px;
+	box-shadow: 0 0 70px grey;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.digit, .dot {
+	margin-top: 0.5%;
+	background-color: rgb(72, 72, 81);
+	width: 20%;
+	font-size: 1.5em;
+	border-radius: 10px;
+	border: none;
+	color: silver;
+	outline: none!important;
+}
+.butMathOperation, .minus {
+	background-color: rgb(72, 72, 81);
+	width: 20%;
+	font-size: 1.5em;
+	border-radius: 10px;
+	margin-top: 0.5%;
+	border: none;
+	color: silver;
+	outline: none!important;
+}
+.butMathOperation:hover, .digit:hover, .equally:hover, .clear:hover, .delete:hover, .dot:hover, .minus:hover, .parenthesisR:hover, .parenthesisL:hover {
+	opacity: 0.9;
+}
+.clear, .delete {
+	font-size: 1.5em;
+	background: rgba(180, 42, 42, 0.5);
+	color: silver;
+	border: none;
+	outline: none!important;
+	width: 20%;
+	border-radius: 10px;
+}
+.delete {
+	background-color: rgb(72, 72, 81);
+	border: none;
+	color: rgb(104, 35, 43);
+}
+.parenthesisR, .parenthesisL {
+	font-size: 1.5em;
+	background-color: rgb(72, 72, 81);
+	border: none;
+	color: silver;
+	width: 20%;
+	border-radius: 10px;
+	outline: none!important;
+}
+.equally {
+	background-color: rgb(72, 72, 81);
+	color: green;
+	width: 20%;
+	font-size: 1.5em;
+	border-radius: 10px;
+	outline: none!important;
+	border: none;
+	margin-top: 0.5%;
+}
+#input2 {
+	color:#FFEFD0!important;
+  font-size: 30px;
+	margin-left: 10%;
+	margin-top: 3%;
+	width: 80%;
+	text-align: right;
+	padding: 1%;
+	background: rgb(72, 72, 81);
+	border: none;
+	outline: none!important;
+	border-radius: 10px;
+}
